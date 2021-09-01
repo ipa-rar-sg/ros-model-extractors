@@ -1,0 +1,6 @@
+PackageSet {
+  CatkinPackage kinova_driver {
+    FromGitRepo "https://github.com/Kinovarobotics/kinova-ros" 
+    Artifact kinova_arm_driver {
+      Node { name kinova_arm_driver}
+}}}

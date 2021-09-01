@@ -1,0 +1,6 @@
+PackageSet {
+  CatkinPackage roverrobotics_driver {
+    FromGitRepo "https://github.com/RoverRobotics/roverrobotics_ros1" 
+    Artifact roverrobotics_driver_node {
+      Node { name roverrobotics_driver_node}
+}}}

@@ -1,0 +1,6 @@
+PackageSet {
+  CatkinPackage aubo_driver {
+    FromGitRepo "https://github.com/AuboRobot/aubo_robot" 
+    Artifact aubo_driver {
+      Node { name aubo_driver}
+}}}
