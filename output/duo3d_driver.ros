@@ -1,0 +1,6 @@
+PackageSet {
+  CatkinPackage duo3d_driver {
+    FromGitRepo "https://github.com/duo3d/duo3d_driver" 
+    Artifact duo3d_driver {
+      Node { name duo3d_driver}
+}}}

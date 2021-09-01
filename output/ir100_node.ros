@@ -1,0 +1,11 @@
+PackageSet {
+  CatkinPackage ir100_driver {
+    FromGitRepo "https://github.com/Sunspeed-Robotics/C100/" 
+    Artifact ir100_node {
+      Node { name ir100_node
+        Parameters {
+          Parameter { name 'bms_port' type String value '/dev/ttyUSB0'},
+          Parameter { name 'diagnostic_frequency' type Double value 4.0},
+          Parameter { name 'controller_port' type String value '/dev/ttyACM0'},
+          Parameter { name 'control_frequency' type Double value 50.0}}}
+}}}

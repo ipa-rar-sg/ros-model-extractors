@@ -1,0 +1,6 @@
+PackageSet {
+  CatkinPackage phoxi_camera {
+    FromGitRepo "https://github.com/photoneo/phoxi_camera" 
+    Artifact phoxi_camera {
+      Node { name phoxi_camera}
+}}}

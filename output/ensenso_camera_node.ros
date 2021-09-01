@@ -1,0 +1,6 @@
+PackageSet {
+  CatkinPackage ensenso_camera {
+    FromGitRepo "https://github.com/ensenso/ros_driver" 
+    Artifact ensenso_camera_node {
+      Node { name ensenso_camera_node}
+}}}

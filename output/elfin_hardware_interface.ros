@@ -1,0 +1,8 @@
+PackageSet {
+  CatkinPackage elfin_ros_control {
+    FromGitRepo "https://github.com/hans-robot/elfin_robot/" 
+    Artifact elfin_hardware_interface {
+      Node { name elfin_hardware_interface
+        Parameters {
+          Parameter { name 'elfin_ethernet_name' type String value 'eth0'}}}
+}}}

@@ -1,0 +1,6 @@
+PackageSet {
+  CatkinPackage basler_tof {
+    FromGitRepo "https://github.com/uos/basler_tof" 
+    Artifact basler_tof_node {
+      Node { name basler_tof_node}
+}}}

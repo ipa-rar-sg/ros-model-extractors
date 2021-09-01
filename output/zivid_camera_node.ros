@@ -1,0 +1,6 @@
+PackageSet {
+  CatkinPackage zivid_camera {
+    FromGitRepo "https://github.com/zivid/zivid-ros" 
+    Artifact zivid_camera_node {
+      Node { name zivid_camera_node}
+}}}

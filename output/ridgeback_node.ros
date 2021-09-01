@@ -1,0 +1,6 @@
+PackageSet {
+  CatkinPackage ridgeback_base {
+    FromGitRepo "https://github.com/ridgeback/ridgeback_robot" 
+    Artifact ridgeback_node {
+      Node { name ridgeback_node}
+}}}
